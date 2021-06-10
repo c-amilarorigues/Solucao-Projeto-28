@@ -21,7 +21,7 @@ class Player {
     push();
     textSize(20);
     fill("white");
-    text("Player", 280, 40);
+    text("Jogador", 280, 40);
 
     fill(this.life1);
     rect(180, 50, 70, 30);
