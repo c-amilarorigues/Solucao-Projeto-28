@@ -58,11 +58,11 @@ function draw() {
 
   Engine.update(engine);
 
-  // Title
+  //Título
   fill("#FFFF");
   textAlign("center");
   textSize(40);
-  text("EPIC ARCHERY", width / 2, 100);
+  text("ARQUEARIA ÉPICA", width / 2, 100);
 
   for (var i = 0; i < playerArrows.length; i++) {
     showArrows(i, playerArrows);
